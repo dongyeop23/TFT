@@ -1,0 +1,31 @@
+champion_id,name,cost,hp,attack_damage,image_path
+1,아리,4,750,40,assets/images/champions/ahri.png
+2,블리츠크랭크,1,650,45,assets/images/champions/blitzcrank.png
+3,지용,5,1000,80,assets/images/champions/ziggs.png
+4,신드라,2,600,35,assets/images/champions/syndra.png
+5,가렌,1,700,60,assets/images/champions/garen.png
+
+item_id,item_name,effect,image_path
+101,라바돈의 죽음의 모자,주문력 50 증가,assets/images/items/rabadon.png
+102,쇼진의 창,공격 시 추가 마나 회복,assets/images/items/shojin.png
+103,워모그의 갑옷,최대 체력 500 증가,assets/images/items/warmog.png
+104,무한의 대검,치명타 확률 및 치명타 피해량 증가,assets/images/items/ie.png
+
+trait_id,trait_name,description
+201,학자,스킬 시전 시 마나 회복 및 추가 주문력 획득
+202,선봉장,추가 방어력 및 마법 저항력 획득, 보호막 생성
+203,요술사,스킬을 두 번 시전하며 주문력 조정됨
+204,차원문,전투 시작 시 차원문이 열려 무작위 효과 발동
+
+champion_id,trait_id
+1,203
+1,204
+2,202
+3,203
+4,201
+4,203
+
+deck_id,deck_name,description,rank_tier,user_id
+1001,요술사 아리 덱,아리를 메인 캐리로 사용하는 강력한 주문력 덱,S,1
+1002,차원문 신드라 덱,차원문 시너지와 신드라의 지속 딜을 활용한 덱,A,1
+
