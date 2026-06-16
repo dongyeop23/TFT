@@ -9,10 +9,10 @@ wheels/
 # Virtual environments
 .venv/
 
-# Database
-data/*.db
-*.db.wal
-*.db.tmp
+# # Database
+# data/*.db
+# *.db.wal
+# *.db.tmp
 
 # VSCode
 .vscode/
